@@ -14,11 +14,11 @@ class Sucursales {
 
 class MyApp extends StatelessWidget {
   final List<Sucursales> sucursales = [
-    Sucursales(1, 'Sucursal A', 'CURP001'),
-    Sucursales(2, 'Sucursal B', 'CURP002'),
-    Sucursales(3, 'Sucursal C', 'CURP003'),
-    Sucursales(4, 'Sucursal D', 'CURP004'), // Nueva fila 1
-    Sucursales(5, 'Sucursal E', 'CURP005'), // Nueva fila 2
+    Sucursales(1, 'Sucursal A', 'direccion1'),
+    Sucursales(2, 'Sucursal B', 'direccion1'),
+    Sucursales(3, 'Sucursal C', 'direccion1'),
+    Sucursales(4, 'Sucursal D', 'direccion1'), // Nueva fila 1
+    Sucursales(5, 'Sucursal E', 'direccion1'), // Nueva fila 2
   ];
 
   @override
@@ -119,7 +119,7 @@ class MyApp extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'CURP: ',
+                              'Direccion: ',
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
